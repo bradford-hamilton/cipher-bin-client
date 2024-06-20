@@ -7,6 +7,7 @@ import NavigationBar from './components/NavigationBar/NavigationBar';
 import CipherBinRead from './components/CipherBinRead/CipherBinRead';
 import Cli from './components/Cli/Cli';
 import FourOhFour from './components/FourOhFour/FourOhFour';
+import Integrations from './components/Integrations/Integrations';
 import HowItWorks from './components/HowItWorks/HowItWorks';
 import Footer from './components/Footer/Footer';
 import FAQs from './components/FAQs/FAQs';
@@ -26,6 +27,7 @@ ReactDOM.render(
         <Route path="/msg" component={CipherBinRead} exact />
         <Route path="/cli" component={Cli} exact />
         <Route path="/how-it-works" component={HowItWorks} exact />
+        <Route path="/integrations" component={Integrations} exact />
         <Route path="/faqs" component={FAQs} exact />
         <Route path="/coffee" component={Coffee} exact />
         <Route component={FourOhFour} />
